@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png"/>
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png"/>
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png"/>
+    <link rel="manifest" href="/site.webmanifest"/>
+    <title>Главная / Салон GOLD </title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__content"> <a class="logo" href="index.html"> 
+            <svg> 
+              <use xlink:href="sprite.svg#icons--logo"></use>
+            </svg></a>
+          <div class="links"> <a class="link__item" href="#about">
+               О нас</a><a class="link__item" href="#services">
+               Услуги</a><a class="link__item" href="#reviews">
+               Отзывы</a><a class="link__item" href="#contacts">
+               Контакты</a></div>
+        </div>
+      </div>
+    </header>
+    <div class="content"> 
+      <div class="preloader" id="load">
+        <div class="loader">
+          <div class="container">
+            <div class="rotateCenter">
+              <div class="logo">
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--logo"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="first__section">
+        <div class="block__info">
+          <div class="info__logo"> 
+            <svg> 
+              <use xlink:href="sprite.svg#icons--logo"></use>
+            </svg>
+          </div>
+          <h1 class="info__suptitle">ПАРИКМАХЕРСКАЯ <br/>GOLD В АРХАНГЕЛЬСКЕ</h1>
+          <h3 class="info__subtitle">
+             К НАМ - ЗА КРАСОТОЙ</h3>
+          <div class="info__btns"> <a class="btn__phone" href="tel:+79009205715">ПОЗВОНИТЬ</a><a class="btn__target" href="">УСЛУГИ</a></div>
+          <div class="info__contacts"> <a class="contacts__address" href="https://yandex.ru/profile/141351872838" target="_blank"> 
+              <svg> 
+                <use xlink:href="sprite.svg#icons--pin"></use>
+              </svg>
+              <div class="contacts__title">г.Архангельск, ​Московский проспект, 41 к 2</div></a>
+            <div class="contacts__worktime">
+              <svg> 
+                <use xlink:href="sprite.svg#icons--clock"></use>
+              </svg>
+              <div class="contacts__title">Ежедневно с 10:00 до 20:00</div>
+            </div>
+            <div class="contacts__phone"> 
+              <svg> 
+                <use xlink:href="sprite.svg#icons--phone"></use>
+              </svg>
+              <div class="contacts__title">+7 (900) 920-57-15</div>
+            </div>
+          </div>
+        </div>
+        <div class="block__img">
+          <div class="img__content"><img class="img__bg" src="./img/bg.png" alt="" srcset=""/><img class="img__hero" src="./img/hero.png" alt="" srcset=""/></div>
+        </div>
+      </section>
+      <section class="second__section" id="about">
+        <div class="container"> 
+          <div class="block__place"><img class="img__place" src="./img/photo-1.png" alt="" srcset=""/></div>
+          <div class="block__about-info">
+            <div class="about__suptitle"> О НАС</div>
+            <div class="about__text"> GOLD — это команда высококвалифицированных специалистов, кому можно смело доверить свою красоту. Большой опыт и постоянное повышение квалификации мастеров — залог нашего успеха.</div>
+            <div class="about__btn"><a class="about__detailed" href="about.html">
+                <div class="txt-btn">
+                   ПОДРОБНЕЕ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="third__section" id="services">
+        <div class="container"> 
+          <div class="block__title">
+            <h1 class="block-suptitle">УСЛУГИ</h1>
+            <h3 class="block-subtitle">
+               КАЖДОМУ КЛИЕНТУ СВОЙ СТИЛЬ</h3>
+          </div>
+          <div class="block__services">
+            <div class="service-card">
+              <div class="card__header"> ЖЕНСКИЕ СТРИЖКИ</div>
+              <div class="card__img"> <img src="img/services/female.png" alt="ЖЕНСКИЕ СТРИЖКИ"/></div>
+              <div class="card__btn" onclick="document.getElementById('window_1').style.display='block'">
+                <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card__header"> МУЖСКИЕ СТРИЖКИ</div>
+              <div class="card__img"> <img src="img/services/male.png" alt="МУЖСКИЕ СТРИЖКИ"/></div>
+              <div class="card__btn" onclick="document.getElementById('window_2').style.display='block'">
+                <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card__header"> НОГТЕВОЙ СЕРВИС</div>
+              <div class="card__img"> <img src="img/services/nails.png" alt="НОГТЕВОЙ СЕРВИС"/></div>
+              <div class="card__btn" onclick="document.getElementById('window_3').style.display='block'">
+                <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="service-card">
+              <div class="card__header"> МАССАЖ И ДЕПИЛЯЦИЯ</div>
+              <div class="card__img"> <img src="img/services/massage.jpg" alt="МАССАЖ И ДЕПИЛЯЦИЯ"/></div>
+              <div class="card__btn" onclick="document.getElementById('window_4').style.display='block'">
+                <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fourth__section" id="reviews">
+        <div class="container"> 
+          <div class="block__title">
+            <h1 class="block-suptitle">ОТЗЫВЫ</h1>
+            <h3 class="block-subtitle">
+               НАШИ КЛИЕНТЫ О НАС</h3>
+          </div>
+          <div class="block__reviews"> 
+            <div class="review-card">
+              <div class="card__header">
+                <div class="name"> Нина К.</div>
+                <div class="surname"></div>
+              </div>
+              <div class="card__img"> <img src="img/bg.png"/></div><a class="card__btn" href="https://yandex.ru/user/t5dkjfwyq8jkxrjecnme8xxcng?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
+                <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg></a>
+            </div>
+            <div class="review-card">
+              <div class="card__header">
+                <div class="name"> Анна П.</div>
+                <div class="surname"></div>
+              </div>
+              <div class="card__img"> <img src="img/bg.png"/></div><a class="card__btn" href="https://yandex.ru/user/xayhg2wmxk3ajrxpxfp7gfjm0g?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
+                <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg></a>
+            </div>
+            <div class="review-card">
+              <div class="card__header">
+                <div class="name"> Ядвига К.</div>
+                <div class="surname"></div>
+              </div>
+              <div class="card__img"> <img src="img/bg.png"/></div><a class="card__btn" href="https://yandex.ru/user/n3xeuyaej2m012d181b7unz65g?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
+                <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="fifth__section" id="contacts">
+        <div class="container"> 
+          <div class="block__title">
+            <h1 class="block-suptitle">КОНТАКТЫ</h1>
+            <h3 class="block-subtitle">
+               ПРИСОЕДИНЯЙТЕСЬ</h3>
+          </div>
+          <div class="block__contacts">
+            <div class="contacts-content"> 
+              <div class="contacts__logo"> 
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--logo"></use>
+                </svg>
+              </div>
+              <h1 class="contacts__suptitle">ПАРИКМАХЕРСКАЯ <br/>GOLD В АРХАНГЕЛЬСКЕ</h1>
+              <h3 class="contacts__subtitle">
+                 К НАМ - ЗА КРАСОТОЙ</h3>
+              <div class="contacts__info"> <a class="contacts__address" href="https://yandex.ru/profile/141351872838" target="_blank"> 
+                  <svg> 
+                    <use xlink:href="sprite.svg#icons--pin"></use>
+                  </svg>
+                  <div class="contacts__title">г.Архангельск, ​Московский проспект, 41 к 2</div></a>
+                <div class="contacts__worktime">
+                  <svg> 
+                    <use xlink:href="sprite.svg#icons--clock"></use>
+                  </svg>
+                  <div class="contacts__title">Ежедневно с 10:00 до 20:00</div>
+                </div>
+                <div class="contacts__phone"> 
+                  <svg> 
+                    <use xlink:href="sprite.svg#icons--phone"></use>
+                  </svg>
+                  <div class="contacts__title">+7 (900) 920-57-15</div>
+                </div>
+              </div><a class="contacts-socials" href="https://vk.com/hairsalongold" target="_blank"> 
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--vk"></use>
+                </svg></a>
+            </div>
+            <div class="contacts-map">
+              <div class="map-content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6862.098213510778!2d40.6114579!3d64.5339879!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfd2414ff66f81740!2z0J_QsNGA0LjQutC80LDRhdC10YDRgdC60LDRjyBHT0xE!5e0!3m2!1sru!2sru!4v1615109550992!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div><a class="map-btn" href="https://goo.gl/maps/utVskj9mvRHbY12Z7" target="_blank">
+                <div class="txt">СМОТРЕТЬ НА КАРТЕ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="modal__window" id="window_1">
+        <div class="modal__container">
+          <div class="modal__close-btn close" onclick="document.getElementById('window_1').style.display='none'" title="Закрыть окно"> 
+            <svg> 
+              <use xlink:href="sprite.svg#icons--close"></use>
+            </svg>
+          </div>
+          <div class="modal__content"> 
+            <div class="modal__title">
+               ЖЕНСКИЕ СТРИЖКИ</div>
+            <div class="modal__price">
+              <div class="price-row">
+                <div class="price-name">Cтрижка женская на короткие волосы</div>
+                <div class="price-value">450 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стрижка женская на средние волосы</div>
+                <div class="price-value">500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стрижка женская на длинные волосы</div>
+                <div class="price-value">от 550 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стрижка челки</div>
+                <div class="price-value">100 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Окраска волос</div>
+                <div class="price-value">от 500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Оксидант 60 мл</div>
+                <div class="price-value">80 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Краска &quot;Эстель&quot;</div>
+                <div class="price-value">350 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Осветление корней</div>
+                <div class="price-value">от 700 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Мелирование на шапочку</div>
+                <div class="price-value">от 800 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Мелирование на фольге</div>
+                <div class="price-value">от 1000 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Колорирование (работа) + материалы</div>
+                <div class="price-value">от 1200 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Укладка волос</div>
+                <div class="price-value">от 500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стайлинг</div>
+                <div class="price-value">от 1000 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Прическа</div>
+                <div class="price-value">от 1000 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Мытье головы</div>
+                <div class="price-value">100 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Сушка волос феном</div>
+                <div class="price-value">200 ₽</div>
+              </div>
+            </div>
+            <div class="attention">
+               Вся представленная на сайте информация, касающаяся стоимости услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__window" id="window_2">
+        <div class="modal__container">
+          <div class="modal__close-btn close" onclick="document.getElementById('window_2').style.display='none'" title="Закрыть окно"> 
+            <svg> 
+              <use xlink:href="sprite.svg#icons--close"></use>
+            </svg>
+          </div>
+          <div class="modal__content"> 
+            <div class="modal__title">
+               МУЖСКИЕ СТРИЖКИ</div>
+            <div class="modal__price">
+              <div class="price-row">
+                <div class="price-name">Стрижка машинкой без насадки (наголо)</div>
+                <div class="price-value">150 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стрижка машинкой простая (под 1 насадку)</div>
+                <div class="price-value">250 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стрижка машинкой (2 и более насадок)</div>
+                <div class="price-value">300 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Стрижка мужская (модельная)</div>
+                <div class="price-value">400 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Детская стрижка для мальчиков до 7 лет машинкой/модельная</div>
+                <div class="price-value">200/300 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Детская стрижка для мальчиков до 12 лет</div>
+                <div class="price-value">250/350 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Мытьё головы</div>
+                <div class="price-value">50 ₽</div>
+              </div>
+            </div>
+            <div class="attention">
+               Вся представленная на сайте информация, касающаяся стоимости услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__window" id="window_3">
+        <div class="modal__container">
+          <div class="modal__close-btn close" onclick="document.getElementById('window_3').style.display='none'" title="Закрыть окно"> 
+            <svg> 
+              <use xlink:href="sprite.svg#icons--close"></use>
+            </svg>
+          </div>
+          <div class="modal__content"> 
+            <div class="modal__title">
+               НОГТЕВОЙ СЕРВИС</div>
+            <div class="modal__price">
+              <div class="price-row">
+                <div class="price-name">Маникюр</div>
+                <div class="price-value">400 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Мужской маникюр</div>
+                <div class="price-value">500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Покраска бровей</div>
+                <div class="price-value">150 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Покраска ресниц</div>
+                <div class="price-value">150 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Коррекция бровей (пинцет)</div>
+                <div class="price-value">150 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Покраска бровей (бритва)</div>
+                <div class="price-value">100 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Краска &quot;Эстель&quot;</div>
+                <div class="price-value">350 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Наращивание ногтей (гель) на формах</div>
+                <div class="price-value">1200 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Наращивание ногтей (гель) укрепление гелем</div>
+                <div class="price-value">800 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Наращивание ногтей (гель) гель-лак</div>
+                <div class="price-value">800 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Ремонт нарощенного ногтя</div>
+                <div class="price-value">10% от стоимости</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Педикюр</div>
+                <div class="price-value">от 900 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Педикюр с покрытием (гель-лак)</div>
+                <div class="price-value">1200 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Покрытие (без педикюра, гель-лак)</div>
+                <div class="price-value">800 ₽</div>
+              </div>
+            </div>
+            <div class="attention">
+               Вся представленная на сайте информация, касающаяся стоимости услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__window" id="window_4">
+        <div class="modal__container">
+          <div class="modal__close-btn close" onclick="document.getElementById('window_4').style.display='none'" title="Закрыть окно"> 
+            <svg> 
+              <use xlink:href="sprite.svg#icons--close"></use>
+            </svg>
+          </div>
+          <div class="modal__content"> 
+            <div class="modal__title">
+               МАССАЖ И ДЕПИЛЯЦИЯ </div>
+            <div class="modal__price">
+              <div class="price__title">
+                 МАССАЖ</div>
+              <div class="price-row">
+                <div class="price-name">Общий</div>
+                <div class="price-value">1500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Спина</div>
+                <div class="price-value">500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Шейноворотниковая зона</div>
+                <div class="price-value">400 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Ноги</div>
+                <div class="price-value">500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Руки</div>
+                <div class="price-value">400 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Лицо</div>
+                <div class="price-value">300 ₽</div>
+              </div>
+              <div class="price__title">ДЕПИЛЯЦИЯ ВОСКОМ</div>
+              <div class="price-row">
+                <div class="price-name">Глубокое бикини</div>
+                <div class="price-value">500  ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Ноги</div>
+                <div class="price-value">500  ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Руки</div>
+                <div class="price-value">500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Спина, живот</div>
+                <div class="price-value">500 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Подмышки</div>
+                <div class="price-value">100 ₽</div>
+              </div>
+              <div class="price-row">
+                <div class="price-name">Лицо</div>
+                <div class="price-value">100 ₽</div>
+              </div>
+            </div>
+            <div class="attention">
+               Вся представленная на сайте информация, касающаяся стоимости услуг, носит информационный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437(2) Гражданского кодекса РФ.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container"> 
+        <div class="block__rights">
+           © GOLD. Все права защищены</div><a class="block__webdev-author" href="https://daniloneil.github.io/portfolio/">
+          <svg> 
+            <use xlink:href="sprite.svg#icons--brand"> </use>
+          </svg></a><a class="btn-upper" href="#">
+          <svg> 
+            <use xlink:href="sprite.svg#icons--up"></use>
+          </svg></a>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
