@@ -50,7 +50,7 @@
           <h1 class="info__suptitle">ПАРИКМАХЕРСКАЯ <br/>GOLD В АРХАНГЕЛЬСКЕ</h1>
           <h3 class="info__subtitle">
              К НАМ - ЗА КРАСОТОЙ</h3>
-          <div class="info__btns"> <a class="btn__phone" href="tel:+79009205715">ПОЗВОНИТЬ</a><a class="btn__target" href="">УСЛУГИ</a></div>
+          <div class="info__btns"> <a class="btn__phone" href="tel:+79009205715">ПОЗВОНИТЬ</a><a class="btn__target" href="#services">УСЛУГИ</a></div>
           <div class="info__contacts"> <a class="contacts__address" href="https://yandex.ru/profile/141351872838" target="_blank"> 
               <svg> 
                 <use xlink:href="sprite.svg#icons--pin"></use>
@@ -71,12 +71,12 @@
           </div>
         </div>
         <div class="block__img">
-          <div class="img__content"><img class="img__bg" src="./img/bg.png" alt="" srcset=""/><img class="img__hero" src="./img/hero.png" alt="" srcset=""/></div>
+          <div class="img__content"><img class="img__bg" src="img/bg.png" alt="" srcset=""/><img class="img__hero" src="img/hero.png" alt="" srcset=""/></div>
         </div>
       </section>
       <section class="second__section" id="about">
         <div class="container"> 
-          <div class="block__place"><img class="img__place" src="./img/photo-1.png" alt="" srcset=""/></div>
+          <div class="block__place"><img class="img__place" src="img/photo-1.png" alt="" srcset="" loading="lazy"/></div>
           <div class="block__about-info">
             <div class="about__suptitle"> О НАС</div>
             <div class="about__text"> GOLD — это команда высококвалифицированных специалистов, кому можно смело доверить свою красоту. Большой опыт и постоянное повышение квалификации мастеров — залог нашего успеха.</div>
@@ -99,7 +99,7 @@
           <div class="block__services">
             <div class="service-card">
               <div class="card__header"> ЖЕНСКИЕ СТРИЖКИ</div>
-              <div class="card__img"> <img src="img/services/female.png" alt="ЖЕНСКИЕ СТРИЖКИ"/></div>
+              <div class="card__img"> <img src="img/services/female.png" alt="ЖЕНСКИЕ СТРИЖКИ" loading="lazy"/></div>
               <div class="card__btn" onclick="document.getElementById('window_1').style.display='block'">
                 <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
                 <svg> 
@@ -109,7 +109,7 @@
             </div>
             <div class="service-card">
               <div class="card__header"> МУЖСКИЕ СТРИЖКИ</div>
-              <div class="card__img"> <img src="img/services/male.png" alt="МУЖСКИЕ СТРИЖКИ"/></div>
+              <div class="card__img"> <img src="img/services/male.png" alt="МУЖСКИЕ СТРИЖКИ" loading="lazy"/></div>
               <div class="card__btn" onclick="document.getElementById('window_2').style.display='block'">
                 <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
                 <svg> 
@@ -119,7 +119,7 @@
             </div>
             <div class="service-card">
               <div class="card__header"> НОГТЕВОЙ СЕРВИС</div>
-              <div class="card__img"> <img src="img/services/nails.png" alt="НОГТЕВОЙ СЕРВИС"/></div>
+              <div class="card__img"> <img src="img/services/nails.png" alt="НОГТЕВОЙ СЕРВИС" loading="lazy"/></div>
               <div class="card__btn" onclick="document.getElementById('window_3').style.display='block'">
                 <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
                 <svg> 
@@ -129,7 +129,7 @@
             </div>
             <div class="service-card">
               <div class="card__header"> МАССАЖ И ДЕПИЛЯЦИЯ</div>
-              <div class="card__img"> <img src="img/services/massage.jpg" alt="МАССАЖ И ДЕПИЛЯЦИЯ"/></div>
+              <div class="card__img"> <img src="img/services/massage.jpg" alt="МАССАЖ И ДЕПИЛЯЦИЯ" loading="lazy"/></div>
               <div class="card__btn" onclick="document.getElementById('window_4').style.display='block'">
                 <div class="txt-btn">УСЛУГИ И СТОИМОСТЬ</div>
                 <svg> 
@@ -150,21 +150,10 @@
           <div class="block__reviews"> 
             <div class="review-card">
               <div class="card__header">
-                <div class="name"> Нина К.</div>
-                <div class="surname"></div>
-              </div>
-              <div class="card__img"> <img src="img/bg.png"/></div><a class="card__btn" href="https://yandex.ru/user/t5dkjfwyq8jkxrjecnme8xxcng?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
-                <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
-                <svg> 
-                  <use xlink:href="sprite.svg#icons--arrow"></use>
-                </svg></a>
-            </div>
-            <div class="review-card">
-              <div class="card__header">
                 <div class="name"> Анна П.</div>
                 <div class="surname"></div>
               </div>
-              <div class="card__img"> <img src="img/bg.png"/></div><a class="card__btn" href="https://yandex.ru/user/xayhg2wmxk3ajrxpxfp7gfjm0g?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
+              <div class="card__img"> <img src="img/reviews/review-1.png" loading="lazy"/></div><a class="card__btn" href="https://yandex.ru/user/t5dkjfwyq8jkxrjecnme8xxcng?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
                 <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
                 <svg> 
                   <use xlink:href="sprite.svg#icons--arrow"></use>
@@ -175,7 +164,18 @@
                 <div class="name"> Ядвига К.</div>
                 <div class="surname"></div>
               </div>
-              <div class="card__img"> <img src="img/bg.png"/></div><a class="card__btn" href="https://yandex.ru/user/n3xeuyaej2m012d181b7unz65g?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
+              <div class="card__img"> <img src="img/reviews/review-2.png" loading="lazy"/></div><a class="card__btn" href="https://yandex.ru/user/xayhg2wmxk3ajrxpxfp7gfjm0g?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
+                <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
+                <svg> 
+                  <use xlink:href="sprite.svg#icons--arrow"></use>
+                </svg></a>
+            </div>
+            <div class="review-card">
+              <div class="card__header">
+                <div class="name"> Нина К.</div>
+                <div class="surname"></div>
+              </div>
+              <div class="card__img"> <img src="img/reviews/review-3.png" loading="lazy"/></div><a class="card__btn" href="https://yandex.ru/user/n3xeuyaej2m012d181b7unz65g?utm_source=clipboard&amp;utm_medium=social&amp;utm_campaign=share" target="_blank"> 
                 <div class="txt-btn">ЧИТАТЬ ПОЛНЫЙ ОТЗЫВ</div>
                 <svg> 
                   <use xlink:href="sprite.svg#icons--arrow"></use>
