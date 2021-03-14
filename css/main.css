@@ -470,7 +470,7 @@ section {
         width: 8rem;
         height: 8rem;
         position: absolute;
-        background: url(/img/decor/elem-1.svg) center no-repeat;
+        background: url('../img/decor/elem-1.svg') center no-repeat;
         z-index: -1;
         top: 0;
         left: -5%; }
@@ -574,7 +574,7 @@ section {
         width: 8rem;
         height: 8rem;
         position: absolute;
-        background: url(/img/decor/elem-1.svg) center no-repeat;
+        background: url('../img/decor/elem-1.svg') center no-repeat;
         z-index: -1;
         top: 0;
         left: -5%; }
@@ -682,7 +682,7 @@ section {
         width: 8rem;
         height: 8rem;
         position: absolute;
-        background: url(/img/decor/elem-1.svg) center no-repeat;
+        background: url('../img/decor/elem-1.svg') center no-repeat;
         z-index: -1;
         top: 0;
         left: -5%; }
@@ -884,7 +884,7 @@ section {
         height: 2rem; }
 
 .modal__window {
-  background: url("/img/bgGrey.png") center/cover;
+  background: url('../img/bgGrey.png') center/cover;
   position: fixed;
   left: 0;
   top: 0;
@@ -1131,7 +1131,7 @@ section {
         width: 8rem;
         height: 8rem;
         position: absolute;
-        background: url(/img/decor/elem-1.svg) center no-repeat;
+        background: url('../img/decor/elem-1.svg') center no-repeat;
         z-index: -1;
         top: 0;
         left: -5%; }
@@ -1217,7 +1217,7 @@ section {
         width: 8rem;
         height: 8rem;
         position: absolute;
-        background: url(/img/decor/elem-1.svg) center no-repeat;
+        background: ('../img/decor/elem-1.svg') center no-repeat;
         z-index: -1;
         top: 0;
         left: -5%; }
